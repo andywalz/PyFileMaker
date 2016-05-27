@@ -174,9 +174,6 @@ class FMServer:
 			return self._setComparasionOperator(name[:-4], value)
 		if name[-3:] == '.op':
 			return self._setComparasionOperator(name[:-3], value)
-		if name.find('__') != -1:
-			import re
-			name = name.replace('__','::')
 		elif name.find('.') != -1:
 			name = name.replace('.','::')
 
