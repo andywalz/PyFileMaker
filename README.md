@@ -1,3 +1,5 @@
+#NOTE: This is fork of https://github.com/aeguana/PyFileMaker patched to support double underscores '\_\_' in field names instead of the original behavior which replaces '\_\_' with '::'
+
 #PyFileMaker - Integrating FileMaker and Python
 * (c) 2014-2016 Marcin Kawa, kawa.macin@gmail.com
 * (c) 2006-2008 Klokan Petr Pridal, klokan@klokan.cz
